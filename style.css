@@ -1,0 +1,484 @@
+@font-face {
+    font-family: "PT Sans Narrow" ;
+    src: url(fonts/PTSansNarrow-Regular.ttf);
+}
+@font-face {
+    font-family: "Sulphur Point";
+    src: url(fonts/SulphurPoint-Regular.ttf); 
+}
+@font-face {
+    font-family: "Mplus 1p";
+    src: url(fonts/MPLUS1p-Regular.ttf);
+}
+@font-face {
+    font-family: "Prata";
+    src: url(fonts/Prata-Regular.ttf);
+}
+html{
+    width: 414px;
+}
+.header{
+    position: relative; 
+    height: 185px; 
+    top:-10px;
+    left:-10px;
+    z-index: 3;
+}
+.rectangle1{
+    position: absolute;
+    /* width: 385px; */
+    height: 389,47px;
+    /* left: 211.53px; */
+    /* top:  -273.32px; */
+    /* top: 0;
+    left: 0; */
+    z-index: 1;
+}
+.vector4{
+    position: absolute;
+    height: 50.6px;
+    width: 34.15px;
+    left: 191.53px;
+    top: 39.08px;
+    z-index: 2;
+}
+.vector13{
+    position: absolute;
+    height: 500px;
+    width: 339.44px;
+    left: 55.42px;
+    top: 110.5px;  
+    z-index: 2;
+}
+.textTamwyle{
+    /* position: absolute; */
+    position: relative;
+    /* height: 36px;
+    width: 85px; */
+    /* left: 27px;
+    top: 200px; */
+    font-family:'PT Sans Narrow';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    /* text-align: left; */
+    color: #398495;
+    margin:0%;
+    padding: 2px;
+}
+.teamWeb{
+    /* position:absolute; */
+    height: 96px;
+    width: 376px;
+    /* left: 23px;
+    top: 236px; */
+    font-family:"Sulphur Point",'PT Sans Narrow'  ;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    z-index: 3;
+    letter-spacing: 5px;
+    margin:0%;
+}
+.afterWeb{
+    /* position: absolute; */
+    height: 72px;
+    width: 376px;
+    /* left: 23px;
+    top: 340px; */
+    border-radius: nullpx;
+    font-family: 'Sulphur Point','PT Sans Narrow';
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    letter-spacing: 1px;
+    margin:0%;    
+}
+.rectangle14{
+    position: absolute;
+    height: 162.98px;
+    width: 186.09px;
+    left: 18px;
+    top: 572.86px;
+    border-radius: 900px;
+    z-index: 1;
+}
+.title{
+    position: relative;
+    height: 300px;
+    /* top:170px; */
+    left:23px;
+    z-index:3;    
+}
+.orderButtons{
+    position: relative;
+    height: 70px;
+    /* top:250px; */
+    left: 23px;
+    z-index: 3;
+}
+.order{
+    position: absolute;
+    top: -7px;
+    left: 20px;
+    font-family: "Mplus 1p";
+    font-weight: 400;
+    font-style: normal;
+    size: 16px;
+    color:white;
+}
+.portfolio{
+    position: absolute;
+    top: -7px;
+    left: 240px;
+    font-family: "Mplus 1p";
+    font-weight: 400;
+    font-style: normal;
+    size: 16px;
+}
+.aboutUs{
+    position: relative;
+    z-index: 3;
+}
+.textUs{
+    position: relative;
+    font-family: "PT Sans Narrow";
+    top: 23px;
+    left: 68px;
+    height: 80px;
+    width: 100px;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 47px;
+    z-index: 3;
+}
+.memoBoy19{
+    position: absolute;
+    width: 99px;
+    height: 136px;
+    left: 45px;
+
+}
+.rectangle18{
+   position:relative;
+   width: 129px;
+   height: 129px; 
+   left: 37px;
+}
+.memoText{
+    position: absolute;
+    left: 185px;
+    top:-25px;
+    font-family: "PT Sans Narrow";
+    width: 204px;
+    font-weight: 400;
+    line-height: 23.29px;
+    font-size: 18px;
+}
+.vector14{
+    position: absolute;
+    /* height: 252px;
+    width: 200.67px; */
+    left: 159px;
+    top: 690.5px;  
+    z-index: 2;
+}
+.rectangle182{
+    position: absolute;
+    top: 897.42px;
+    left: 211.69px;
+}
+.vector15{
+    position: absolute;
+    top: 1024px;
+    left: 35.9px;
+}
+.services{
+    position: relative;
+    top: 63px;   
+    left: 223px;
+    font-family: "PT Sans Narrow";
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46.58px;
+    width: 160px;
+    height: 47px;
+}
+.orderInfo{
+    position: relative;
+    top: 88px;
+    width: 400px;
+    font-family: "PT Sans Narrow";
+    font-weight: 400;
+    line-height: 40px;
+    font-style: normal;
+    font-size: 16px;
+}
+.group62{
+    position: relative;
+    left: 27px;
+    bottom: 0px;
+}
+.greenmark{
+    list-style-image: url(images/Rectangle\ 20.png);
+    margin: 0px; 
+    position: relative;
+    left:28px;
+    margin-bottom: 12px;  
+}
+.bluemark{
+    list-style-image: url(images/Rectangle\ 26.png);
+    margin: 0px;   
+    position: relative;
+    left:28px;
+    margin-bottom: 12px;
+}
+.remakeInfo{
+    position: relative;
+    top: 88px;
+    width: 400px;
+    font-family: "PT Sans Narrow";
+    font-weight: 400;
+    line-height: 40px;
+    font-style: normal;
+    font-size: 16px;
+}
+.layoutSite{
+    position: relative;
+    top: 130px;
+    left: 27px;
+    width: 360px;
+    font-family: "PT Sans Narrow";
+    font-weight: 400;
+    color:white
+}
+.orderHead{
+    position: absolute;
+    top: -15px;
+    left: 25.48px;
+    font-size: 36px;
+    z-index: 3;
+    line-height: 46.58px;
+}
+.orderText{
+    position: absolute;
+    top: 60px;
+    left: 25.48px;
+    width: 310px;
+    font-size: 16px;
+    z-index: 3;
+    line-height: 20.7px;
+    margin-top: 8px;
+}
+.orderWhite{
+    position: absolute;
+    top:185px;
+    left:25.48px;
+    z-index: 3;
+}
+.orderShadow{
+    position: absolute;
+    top:185px;
+    left:15.48px;
+    z-index: 3;
+}
+.orderLayout{
+    position: absolute;
+    top: 185px;
+    left: 45px;
+    font-family: "Mplus 1p";
+    font-weight: 400;
+    font-style: normal;
+    size: 16px;
+    z-index: 3;
+}
+.layoutDesign{
+    position: relative;
+    top: 150px;
+    left: 27px;
+    width: 360px;
+    font-family: "PT Sans Narrow";
+    font-weight: 400;
+    color:white;
+}
+.vector16{
+    position: absolute;
+    top: 2956.5px;
+    left: 33.7px;
+}
+.rectangle183{
+    position: absolute;
+    top:2822.27px;
+    left:40px;
+}
+.ourTeam{
+    position: relative;
+    top: 190px;   
+    left: 44px;
+    font-family: "PT Sans Narrow";
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46.58px;
+    width: 186px;
+    height: 47px;
+}
+.profile{
+    position: relative;
+    top: 250px;
+    left: 20px;
+    font-family: "PT Sans Narrow";
+    font-weight: 400;
+    font-style: normal;
+    width: 360px;
+    text-align: center;
+}
+.profileName{
+    font-size: 42px;
+    line-height:  54.35px;
+    margin: 0px;
+}
+.profilePosition{
+    color:  #398495;
+    font-size: 32px;
+    line-height: 41.41px;
+    margin:0px;
+}
+.profileInfo{
+    position: relative;
+    font-size: 24px;
+    line-height: 31.06px;
+    margin: 0px;
+    z-index: 2;
+}
+.rectangle184{
+    position: absolute;
+    top: 3552px;
+    left: 204px;
+}
+.quote{
+    position: absolute;
+    top: 230px;
+    left: 0px;
+    color:white;
+    text-shadow: rgb(88, 224, 202) 0 0 2px;
+    font-family: "Prata";
+    font-size: 144px;
+    line-height: 36px;
+    transform: rotate(-180deg);
+    z-index: 1;
+}
+.portfolioCloud{
+    position: relative;
+    top: 300px;   
+    left: 220px;
+    font-family: "PT Sans Narrow";
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46.58px;
+    width: 186px;
+    height: 47px;
+}
+.portfolioLogo{
+    position: relative;
+    top:350px;
+    left:27px;
+    width: 360px;
+}
+.portfolioLogoText{
+    position: absolute;
+    top: 25px;
+    left: 55px;
+    color:white;
+    font-family: "PT Sans Narrow";
+    font-size: 32px;
+    font-style: normal;
+    line-height: 41.41px;
+}
+.rebrand{
+    font-size: 36px;
+    margin: 0px;
+    position:relative;
+    left:132px;
+    color:#398495;
+    width:120px;
+}
+.samwyle{
+    position: relative;
+    top:400px;
+    left:27px;
+    width: 360px;
+    font-family: "PT Sans Narrow";
+    font-weight: 400;
+    font-style: normal;
+}
+.titleWyle{
+    font-size: 36px;
+    line-height: 46.58px;
+    margin: 0px;
+}
+.textWyle{
+    font-size: 24px;
+    line-height: 31.06px;
+    margin-top: 5px;
+}
+.orderButton{
+    box-shadow: -6px 14px 20px -10px green;
+}
+.orderButtonBlue{
+    box-shadow: -6px 14px 20px -10px #398495;
+}
+.contacts{
+    position: relative;
+    top:450px;
+    left:171px;
+    width: 224px;
+}
+.contactText{
+    position: absolute;
+    top:15px;
+    left:40px;
+    font-family: "PT Sans Narrow";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 46.58px;
+}
+.rectangle201{
+    position: absolute;
+    top:4959px;
+    left:-10px;
+}
+.foter{
+    position: relative;
+    top: 500px;
+    width: 364px;
+    font-family: "PT Sans Narrow";
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+.foterTitle{
+    font-size: 24px;
+    line-height: 31.06px;
+    margin: 5px;
+}
+.foterText{
+    font-size: 18px;
+    line-height: 23.29px;
+    margin: 5px;
+}
+.creatingZero{
+    font-size: 36px;
+    margin: 0px;
+    position:relative;
+    left:66px;
+}
